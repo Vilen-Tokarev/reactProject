@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import X from '../../../../../../../img/contact/X.png'
 import { useParams } from "react-router-dom";
 import './modal.scss'
 function Modal({ btn, setBtn }) {
@@ -51,7 +52,7 @@ function Modal({ btn, setBtn }) {
         <section id="modal" style={style} class="modal">
             <div class="modal__box">
                 <button class="modal__box_close" id="close-modal-btn" onClick={() => { setBtn(false) }}>
-                    <img src="./assets/img-contact/X.png" alt="img" />
+                    <img src={X} alt="img" />
                 </button>
                 <p class="modal__box_title">
                     Форма
@@ -64,9 +65,7 @@ function Modal({ btn, setBtn }) {
                         placeholder="Отзыв" />
                 </div>
                 <nav class="modal__box_btn">
-                    {/* <a href=""> */}
                     <button id="send-modal-btn" onClick={() => { setBtn(false); postForm(); }} class="modal__box_btn_text">Отправить</button>
-                    {/* </a> */}
                 </nav>
             </div>
         </section>

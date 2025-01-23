@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import X from '../../../../../../img/contact/X.png'
 function ModalBox({ closeModal }) {
     const [form, setForm] = useState({
         tel: '',
@@ -17,7 +18,7 @@ function ModalBox({ closeModal }) {
     return (
         <div className="modal__box">
             <button className="modal__box_close" id="close-modal-btn" onClick={closeModal}>
-                <img src="./assets/img-contact/X.png" alt="img" />
+                <img src={X} alt="img" />
             </button>
             <p className="modal__box_title">Форма</p>
             <div className="modal__box_input">

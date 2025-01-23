@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Slider from './cardComponents/slider/slider.jsx'
 import Rewiews from "./cardComponents/reviews/reviews.jsx";
 import Main from "./cardComponents/main/main.jsx";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigation } from "react-router-dom";
 import axios from "axios";
 function Card() {
     const { id } = useParams()
@@ -13,8 +13,6 @@ function Card() {
             setUser(res.data)
         })
     },[id])
-
-    
 
     return (
         <>
