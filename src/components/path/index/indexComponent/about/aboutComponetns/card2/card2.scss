@@ -1,0 +1,63 @@
+&_card2 {
+    @media(max-width: 426px) {
+        padding-bottom: 50px;
+    }
+
+    &_title {
+        @media(max-width: 426px) {
+            position: relative;
+            margin: 0;
+            margin-top: 70px;
+            font-size: 20px;
+            text-align: center;
+
+        }
+
+        margin-top: 850px;
+        margin-left: 90px;
+        position: absolute;
+        color: #1E2B4E;
+        letter-spacing: 14%;
+        font-size: 24px;
+        font-family: "Rubik Mono One";
+    }
+
+    &_text {
+        @media(max-width: 426px) {
+            padding-top: 15px;
+            position: relative;
+            margin: 0;
+            margin-top: 30px;
+            background-color: #fff;
+            font-size: 12px;
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            opacity: 0.9;
+
+        }
+
+        width: 623px;
+        height: 168px;
+        font-size: 16px;
+        letter-spacing: 14%;
+        line-height: 150%;
+        font-family: "Rubik Mono One";
+        text-align: center;
+        margin-top: 950px;
+        margin-left: 30px;
+        position: absolute;
+        color: #1E2B4E
+    }
+
+    &_img {
+        @media(max-width: 426px) {
+            display: none;
+        }
+
+        position: absolute;
+        margin-left: 5px;
+        z-index: 0;
+        margin-top: 600px;
+    }
+}

@@ -1,0 +1,25 @@
+.map {
+    height: 100%;
+
+    &__title {
+        @media(max-width: 426px) {
+            font-size: 30px;
+        }
+
+        font-size: 36px;
+        font-family: "Rubik Mono One";
+        color: #1E2B4E;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    &__map-img {
+        @media(max-width: 426px) {
+            margin-bottom: 20px;
+        }
+
+        margin-bottom: 80px;
+        margin-top: 68px;
+    }
+}

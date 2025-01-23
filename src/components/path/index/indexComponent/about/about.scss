@@ -1,0 +1,16 @@
+.aboutcity {
+    @media(max-width: 426px) {
+        height: 100%;
+    }
+
+    position: relative;
+    background-color: #5984CD;
+    height: 1456px;
+
+    &__cardWrap {
+
+        @import './aboutComponetns/card1/card1.scss';
+
+        @import './aboutComponetns/card2/card2.scss';
+    }
+}

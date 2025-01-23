@@ -1,0 +1,90 @@
+.reviewsNon{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.reviews {
+    &__wrap {
+        height: 100%;
+        background-color: #0000007b;
+        padding: 35px 25px;
+        border-radius: 10px;
+        gap: 20px;
+    }
+
+    &_wrapBox {
+        min-width: 350px;
+        max-width: 350px;
+
+        @media(max-width: 426px) {
+            width: 150px;
+        }
+
+        @media(max-width: 376px) {
+            width: 120px;
+        }
+    }
+
+    &_wrapBox2{
+        width: 680px;
+    }
+    &_wrapBox3{
+        text-align: right;
+        display: flex;
+    }
+
+    &_box {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+
+    &_login {
+        color: #1E2B4E;
+        font-family: "Rubik Mono One";
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    &_rare {
+        color: #1E2B4E;
+        font-family: "Rubik Mono One";
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    &_sight {
+        color: #1e2b4e9c;
+        font-family: "Rubik Mono One";
+    }
+
+    &_del{
+        align-items: center;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(255, 0, 0);
+        opacity: 0.6;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover{
+            opacity: 1;
+        }
+    }
+
+    &_text {
+        color: #1E2B4E;
+        font-family: "Rubik Mono One";
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,99 @@
+.BGI {
+    background: url('../../../../../img/index/pic9.png') no-repeat center / cover;
+    height: 980px;
+    margin-top: -130px;
+}
+.titleIndex{
+    @media(max-width: 426px) {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+    width: 653px;
+    margin: 0 auto;
+    font-family: "Rubik Mono One",
+    monospace;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.main {
+
+
+    &__slider::-webkit-scrollbar {
+        display: none;
+    }
+
+    &__slider {
+
+        width: 1040px;
+        display: flex;
+        gap: 16px;
+        overflow-x: scroll;
+
+        &_gallery {
+
+
+            display: flex;
+            gap: 16px;
+
+            :hover {
+                opacity: 0.7;
+                transition: 0.3s;
+                cursor: pointer;
+            }
+
+            @media (max-width: 426px) {
+                :hover {
+                    opacity: 1;
+                }
+            }
+
+        }
+    }
+
+    &__controls {
+
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        #leftbtn,
+        #rightbtn {
+            @media(max-width: 426px) {
+                margin: 5px;
+            }
+
+            cursor: pointer;
+            margin: 47px;
+        }
+
+        margin-top: 230px;
+    }
+
+    &__btn {
+        :hover {
+            background-color: #0077ff;
+            transition: 0.5s;
+        }
+
+        &_text {
+            padding: 13px 0;
+            width: 291px;
+            margin: 0 auto;
+            border-radius: 10px;
+            color: #fff;
+            margin-top: 48px;
+            background-color: #FD7452;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

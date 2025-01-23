@@ -1,0 +1,81 @@
+@import './search.scss';
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main {
+    &__title {
+        @media (max-width: 426px) {
+            font-size: 20px;
+        }
+
+        font-size: 36px;
+        font-family: "Rubik Mono One";
+        font-weight: 450;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+    }
+
+    @import '../mainComponents/userList.scss';
+}
+
+#more {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #00000093;
+}
+
+.pag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pagination__button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #1e2b4e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination__button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination__page-number {
+    font-size: 18px;
+    color: #1e2b4e;
+}

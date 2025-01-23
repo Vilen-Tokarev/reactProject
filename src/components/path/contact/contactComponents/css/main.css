@@ -1,0 +1,106 @@
+.main {
+  height: auto;
+}
+@media (max-width: 426px) {
+  .main {
+    height: 100%;
+  }
+}
+@media (max-width: 426px) {
+  .main_wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main__title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-family: "Rubik Mono One";
+  letter-spacing: 14%;
+  margin-top: 13px;
+  color: #fff;
+}
+.main__box {
+  margin-top: 34px;
+}
+@media (max-width: 426px) {
+  .main__box_wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 426px) {
+  .main__box_img {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.main__box_contact {
+  margin-left: 97px;
+}
+@media (max-width: 426px) {
+  .main__box_contact {
+    width: 90%;
+    margin: 0;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+.main__box_contact_text {
+  display: flex;
+  margin-bottom: 20px;
+}
+.main__box_contact_text_num {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+}
+.main__box_contact_btn {
+  margin-top: 70px;
+}
+@media (max-width: 426px) {
+  .main__box_contact_btn {
+    width: 100%;
+    margin: 0;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+}
+.main__box_contact_btn_text {
+  padding: 16px 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #1E2B4E;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 426px) {
+  .main__box_contact_btn_text {
+    width: 100%;
+    margin: 0;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 70px;
+  }
+}
+.main__box_map {
+  margin-left: 36%;
+  margin-top: -5%;
+}
+@media (max-width: 426px) {
+  .main__box_map {
+    display: none;
+  }
+}
+.main__box_wrap {
+  display: flex;
+}

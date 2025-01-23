@@ -1,0 +1,95 @@
+.footer {
+    @media(max-width: 426px) {
+        height: 100%;
+        text-align: center;
+    }
+
+    height: 416px;
+    background-color: #00244C;
+
+    &__logo {
+        margin-top: 23px;
+    }
+
+    &__wrap {
+        @media(max-width: 426px) {
+            height: 120%;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            align-items: center;
+            padding-bottom: 30px;
+        }
+
+        display: flex;
+        align-items: baseline;
+
+        &_firstCollum {
+
+            &_title {
+                @media(max-width: 426px) {
+                    font-size: 12px;
+                }
+
+                margin-top: 24px;
+                font-family: "Inder",
+                sans-serif;
+                font-size: 16px;
+                font-weight: 300;
+                color: #fff;
+            }
+
+            &_text {
+                @media(max-width: 426px) {
+                    font-size: 10px;
+                    width: 100%;
+                }
+
+                font-family: "Inter",
+                sans-serif;
+                font-size: 13px;
+                font-weight: 300;
+                width: 315px;
+                line-height: 20px;
+                margin-top: 9px;
+                color: #fff;
+            }
+        }
+
+        &_collum {
+            @media(max-width: 426px) {
+                margin-left: 0;
+            }
+
+            margin-left: 90px;
+
+            &_title {
+                font-family: "Inter", sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                color: #fff;
+            }
+
+            &_text {
+                @media(max-width: 426px) {
+                    margin-top: 15px;
+                }
+
+                opacity: 70%;
+                font-family: "Inter",
+                sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 25px;
+                color: #fff;
+
+            }
+
+            &_link {
+                color: #fff;
+            }
+
+        }
+
+    }
+}
