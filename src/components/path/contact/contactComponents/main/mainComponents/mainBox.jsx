@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Modal from "../../modal/modal.jsx";
-
+import pic1 from '../../../../../../img/contact/ИП1.png'
+import pic2 from '../../../../../../img/contact/Subtract.png'
+import pic3 from '../../../../../../img/contact/Frame100.png'
+import pic4 from '../../../../../../img/contact/Vector.png'
 
 function MainBox() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -12,18 +15,18 @@ function MainBox() {
     return (
         <div className="main__box">
             <div className="main__box_wrap">
-                <img src="./assets/img-contact/ИП 1.png" alt="img" className="main__box_img" />
+                <img src={pic1} alt="img" className="main__box_img" />
                 <ul className="main__box_contact">
                     <li className="main__box_contact_text">
-                        <img src="./assets/img-contact/Subtract.png" alt="img" />
+                        <img src={pic2} alt="img" />
                         <p className="main__box_contact_text_num">+7 999 999 99 99</p>
                     </li>
                     <li className="main__box_contact_text">
-                        <img src="./assets/img-contact/Frame 100.png" alt="img" />
+                        <img src={pic3} alt="img" />
                         <p className="main__box_contact_text_num">pytevoditel@gmail.com</p>
                     </li>
                     <li className="main__box_contact_text">
-                        <img src="./assets/img-contact/Vector.png" alt="img" />
+                        <img src={pic4} alt="img" />
                         <p className="main__box_contact_text_num">@Sudak_putevoditel</p>
                     </li>
                     <nav className="main__box_contact_btn">

@@ -18,15 +18,7 @@ function Card() {
 
     return (
         <>
-            {/* <div id="loading"></div>
-                <div id="loader" class="load">
-                    <hr />
-                    <hr />
-                    <hr />
-                    <hr />
-                </div> */}
-
-            <Slider />
+            <Slider user={{user} || {}} />
             <Main user={{user} || {}} />
             <Rewiews />
         </>

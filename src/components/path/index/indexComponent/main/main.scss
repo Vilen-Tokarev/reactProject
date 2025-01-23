@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 .BGI {
     background: url('../../../../../img/index/pic9.png') no-repeat center / cover;
     height: 980px;
     margin-top: -130px;
 }
-.titleIndex{
+
+.titleIndex {
     @media(max-width: 426px) {
         font-size: 28px;
         width: 100%;
     }
 
-    
+
     color: #fff;
     font-size: 48px;
     font-weight: 300;

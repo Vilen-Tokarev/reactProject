@@ -1,66 +1,54 @@
-.slider-container {
-    position: fixed;
-    width: 80%;
-    height: 90vh;
-    z-index: 11;
-    margin-top: 2.5%;
-    margin-left: 10%;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.slider {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 300%;
-    height: 100%;
-    transition: transform 0.5s ease-in-out;
-    overflow: hidden;
-}
-
-.slider img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.slider__btn-prev,
-.slider__btn-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.82);
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.slider__btn-prev {
-    left: 10px;
-}
-
-.slider__btn-next {
-    right: 10px;
-}
-
+/* Стили для экрана слайдера */
 .screen_slider {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
-    background-color: #0000005e;
-    z-index: 11;
-    display: none;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
+/* Кнопка закрытия слайдера */
 #closeSlider {
-    float: right;
-    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
     border: none;
-    font-size: 45px;
-    margin-right: 50px;
-    margin-top: 30px;
+    color: white;
+    font-size: 24px;
     cursor: pointer;
+}
+
+/* Контейнер слайдера */
+.slider-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Кнопки навигации */
+.slider__btn-prev,
+.slider__btn-next {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Область слайдов */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
