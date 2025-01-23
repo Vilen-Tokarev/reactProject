@@ -1,4 +1,5 @@
 import React from "react";
+
 function Search({ onSearchChange, onSortChange, onFilterChange }) {
     const handleSetSearch = (e) => {
         onSearchChange(e.target.value)
@@ -28,7 +29,6 @@ function Search({ onSearchChange, onSortChange, onFilterChange }) {
                         <option class="search__sort-button" value="rewiews_rare">Сортировка по рейтенгу</option>
                         <option class="search__sort-button" value="rewiews_sum">Сортировка по количеству отзывов</option>
                     </select>
-                    {/* <button type="reset" id="reset-all">Сбросить все</button> */}
                     <a id="reset-all" href="">Сбросить все</a>
                 </div>
 

@@ -30,13 +30,6 @@ export const fetchReviews = (userId) => {
     });
 };
 
-export const createReview = (userId) => {
-    return axios.post(
-        `${baseUrl}/${userId}/reviews/`
-    ).then((res) => { return (res.data) }
-    ).catch((error) => { alert('Ошибка в запросе') })
-}
-
 export const deleteReview = ({ userId, rewId }) => {
     return axios.delete(
         `${baseUrl}/${userId}/reviews/${rewId}`

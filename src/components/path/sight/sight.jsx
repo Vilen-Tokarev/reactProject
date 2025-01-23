@@ -8,13 +8,6 @@ function Sight() {
     const [filter, setFilter] = useState('')
     return (
         <>
-            {/* <div id="loading"></div>
-            <div id="loader" class="load">
-                <hr />
-                <hr />
-                <hr />
-                <hr />
-            </div> */}
             <Search onSearchChange={setSearchInput} onSortChange={setSort} onFilterChange={setFilter} />
             <Main search={searchInput} sort={sort} filter={filter} />
         </>

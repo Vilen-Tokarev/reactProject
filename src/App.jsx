@@ -15,17 +15,15 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClient} >
-      <>
-        <Header />
-        <Routes>
-          <Route path='/' element={<Index />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/sight' element={<Sight />} />
-          <Route path='/sight/card/:id' element={<Card />} />
-          <Route path='*' element={<NotFountPage />} />
-        </Routes>
-        <Footer />
-      </>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Index />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/sight' element={<Sight />} />
+        <Route path='/sight/card/:id' element={<Card />} />
+        <Route path='*' element={<NotFountPage />} />
+      </Routes>
+      <Footer />
     </QueryClientProvider>
   );
 }
