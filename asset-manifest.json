@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Vilen-Tokarev/reactProject.git/static/css/main.2853b47f.css",
+    "main.js": "/Vilen-Tokarev/reactProject.git/static/js/main.e1476fd0.js",
+    "static/media/pic9.png": "/Vilen-Tokarev/reactProject.git/static/media/pic9.a3a713bab595e52738f1.png",
+    "static/media/Group7.png": "/Vilen-Tokarev/reactProject.git/static/media/Group7.2dbea03b70bcf4a9a873.png",
+    "static/media/Group3.png": "/Vilen-Tokarev/reactProject.git/static/media/Group3.544f39e9cdc131370fad.png",
+    "static/media/pic7.png": "/Vilen-Tokarev/reactProject.git/static/media/pic7.99c9b57bfb556cd09c2d.png",
+    "static/media/pic3.png": "/Vilen-Tokarev/reactProject.git/static/media/pic3.0d2374822c2328f3edeb.png",
+    "static/media/pic6.png": "/Vilen-Tokarev/reactProject.git/static/media/pic6.299f2296bf889b3e65d3.png",
+    "static/media/pic4.png": "/Vilen-Tokarev/reactProject.git/static/media/pic4.5ccd64259a27fe203e38.png",
+    "static/media/pic2.png": "/Vilen-Tokarev/reactProject.git/static/media/pic2.d76ca27cc19cd95f7292.png",
+    "static/media/pic1.png": "/Vilen-Tokarev/reactProject.git/static/media/pic1.4f373e5ed8df2ca23454.png",
+    "index.html": "/Vilen-Tokarev/reactProject.git/index.html",
+    "main.2853b47f.css.map": "/Vilen-Tokarev/reactProject.git/static/css/main.2853b47f.css.map",
+    "main.e1476fd0.js.map": "/Vilen-Tokarev/reactProject.git/static/js/main.e1476fd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2853b47f.css",
+    "static/js/main.e1476fd0.js"
+  ]
+}
